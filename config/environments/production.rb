@@ -77,7 +77,7 @@ SampleApp::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-  config.assets.precompile += %w( images/rails.png )
+  config.assets.precompile += %w( rails-2ab7ecf45ded1097a718983958867801.png )
   config.assets.precompile += %w( application-5d6700c163d0286e626222bae8014a65.css )
   config.assets.precompile += %w( application.js )
 end
